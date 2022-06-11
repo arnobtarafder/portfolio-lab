@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import React from 'react';
-// import TypewriterComponent from 'typewriter-effect';
+import TypewriterComponent from 'typewriter-effect';
 
 const Banner = () => {
     return (
@@ -12,7 +12,7 @@ const Banner = () => {
                     transition={{ duration: 1, ease: "easeInOut" }}
                     className='mask mask-hexagon max-w-sm mb-12 lg:mb-0'
                 >
-                    <img src="images/face.png" alt='me' />
+                    <img src="https://media.istockphoto.com/vectors/programming-design-concept-vector-id947663966" alt='me' />
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, x: -50, scale: 0.9 }}
@@ -20,10 +20,10 @@ const Banner = () => {
                     transition={{ duration: 1, ease: "easeInOut" }}
                     className='max-w-2xl'
                 >
-                    <h1 className="text-5xl font-semibold mb-5">Hi! I am Labib!</h1>
+                    <h1 className="text-5xl font-semibold mb-5">Hi! I am Arnob Tarafder!</h1>
                     <div className="text-3xl leading-relaxed mb-5">Front-end Web Developer With Expertise on
                         <span className='font-semibold'>
-                            {/* <TypewriterComponent
+                            <TypewriterComponent
                                 options={{
                                     strings: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS'],
                                     deleteSpeed: 50,
@@ -31,7 +31,7 @@ const Banner = () => {
                                     autoStart: true,
                                     loop: true,
                                 }}
-                            /> */}
+                            />
                         </span>
                     </div>
                     <a href="#contact" className="btn btn-primary">Lets Have a Chat</a>

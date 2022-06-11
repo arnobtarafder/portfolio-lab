@@ -6,7 +6,7 @@ const Navbar = () => {
     const navbarItems = <>
         <li className='mx-auto lg:mr-4'><a href='/#services'>Services</a></li>
         <li className='mx-auto lg:mr-4'><a href='/#portfolio'>Projects</a></li>
-        <li><a href='https://drive.google.com/file/d/1HjygocBdppINjJQ9laEe88QnDGac4Jz8/view?usp=sharing' target='_blank' rel="noreferrer" className="btn btn-primary">Download Resume</a></li>
+        <li><a href='https://drive.google.com/file/d/1A4NP_rjyzxzXl3FDGldDqfHpn2pb8yR7/view?usp=sharing' target='_blank' rel="noreferrer" className="btn btn-primary">Download Resume</a></li>
     </>
     return (
         <motion.div
@@ -16,7 +16,7 @@ const Navbar = () => {
             className="navbar bg-base-100 mb-32"
         >
             <div className="navbar-start">
-                <Link to='/' className="normal-case text-xl">Labib Amir Salimi</Link>
+                <Link to='/' className="normal-case text-xl">Arnob Tarafder</Link>
             </div>
             <div className="dropdown flex navbar-end">
                 <label tabIndex="0" className="btn btn-ghost lg:hidden self-end">

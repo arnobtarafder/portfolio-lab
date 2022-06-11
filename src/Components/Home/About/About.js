@@ -10,7 +10,7 @@ const About = () => {
             className="hero mb-32">
             <div className="hero-content w-full flex-col justify-between lg:flex-row">
                 <div className='mask mask-hexagon mb-12 lg:mb-0'>
-                    <img src="images/arts/aboutme.svg" className="" alt='about me' />
+                    <img src="https://labib-amir-salimi-portfolio.netlify.app/images/arts/aboutme.svg" className="" alt='about me' />
                 </div>
                 <div className='max-w-2xl mr-0 lg:mr-16'>
                     <h1 className="text-5xl font-semibold mb-5">About Me</h1>
