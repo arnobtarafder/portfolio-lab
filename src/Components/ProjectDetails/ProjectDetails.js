@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-const ProjectDetails = () => {
+const ProjectDetail = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch("projects.json")
+        fetch("../projects.json")
             .then(res => res.json())
             .then(data => setProjects(data));
     }, []);
@@ -23,7 +23,7 @@ const ProjectDetails = () => {
                 <div className='flex flex-col'>
                     {
                         screenshots.map(screenshot => <>
-                            <img src={`${screenshot.image}`} class="max-w-sm rounded-lg shadow-2xl" alt='screenshot' />
+                            <img src={`../${screenshot.image}`} class="max-w-sm rounded-lg shadow-2xl" alt='screenshot' />
                             <p className='mb-5 mt-1'>{`${screenshot.title}`}</p>
                         </>)
                     }
@@ -41,4 +41,4 @@ const ProjectDetails = () => {
     );
 };
 
-export default ProjectDetails;
+export default ProjectDetail;
