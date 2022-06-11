@@ -5,15 +5,15 @@
         "screenshots": [
             {
                 "title": "Homepage",
-                "image": "images/screenshots/ironworks.png"
+                "image": "https://github.com/Labib2003/my-portfolio/blob/main/public/images/screenshots/ironworks.png?raw=true"
             },
             {
                 "title": "Admin Dashboard",
-                "image": "images/screenshots/ironworks-admin-dash.png"
+                "image": "https://github.com/Labib2003/my-portfolio/blob/main/public/images/screenshots/ironworks-admin-dash.png?raw=true"
             },
             {
                 "title": "User Dashboard",
-                "image": "images/screenshots/ironworks-user-dash.png"
+                "image": "https://github.com/Labib2003/my-portfolio/blob/main/public/images/screenshots/ironworks-user-dash.png?raw=true"
             }
         ],
         "description": "This is a full-stack responsive react project where dealers can buy tools in bulk. Users can go to the dashboard and pay for or cancel their orders. Only admins see all orders and their payment status in the dashboard. They can also ship paid orders. Admins can make normal users admin and add or delete products.",
@@ -39,15 +39,15 @@
         "screenshots": [
             {
                 "title": "Homepage",
-                "image": "images/screenshots/easyInventory.png"
+                "image": "https://github.com/Labib2003/my-portfolio/blob/main/public/images/screenshots/easyInventory.png?raw=true"
             },
             {
                 "title": "Add New Product Page",
-                "image": "images/screenshots/easyInventory-add-product.png"
+                "image": "https://github.com/Labib2003/my-portfolio/blob/main/public/images/screenshots/easyInventory-add-product.png?raw=true"
             },
             {
                 "title": "Manage Products Page",
-                "image": "images/screenshots/easyInventory-manage-inv.png"
+                "image": "https://github.com/Labib2003/my-portfolio/blob/main/public/images/screenshots/easyInventory-manage-inv.png?raw=true"
             }
         ],
         "description": "This is another full stack responsive web application to manage store inventory. Where users can update the stock of a product by restocking or delivering products. The user can add or delete products from the list. Users can report bugs from the bug report section on the home page.",
@@ -73,15 +73,15 @@
         "screenshots": [
             {
                 "title": "Homepage",
-                "image": "images/screenshots/guitarTutor.png"
+                "image": "https://github.com/Labib2003/my-portfolio/blob/main/public/images/screenshots/guitarTutor.png?raw=true"
             },
             {
                 "title": "Login Page",
-                "image": "images/screenshots/guitarTutor-login.png"
+                "image": "https://github.com/Labib2003/my-portfolio/blob/main/public/images/screenshots/guitarTutor-login.png?raw=true"
             },
             {
                 "title": "Services",
-                "image": "images/screenshots/guitarTutor-services.png"
+                "image": "https://github.com/Labib2003/my-portfolio/blob/main/public/images/screenshots/guitarTutor-services.png?raw=true"
             }
         ],
         "description": "This is a simple react website with routing and firebase authentication. Users can log in using email-password or google pop-up. Users cannot access the checkout page without logging in.",
