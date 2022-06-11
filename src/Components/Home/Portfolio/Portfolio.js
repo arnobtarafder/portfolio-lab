@@ -13,7 +13,7 @@ import 'swiper/css/scrollbar';
 const Portfolio = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch("jsons/projects.json")
+        fetch("projects.json")
             .then(res => res.json())
             .then(data => setProjects(data));
     }, []);
